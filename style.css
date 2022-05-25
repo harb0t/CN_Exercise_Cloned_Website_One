@@ -1,0 +1,131 @@
+body {
+
+    background-color: #000033;
+    font-family: arial;
+    font-size: 10pt;
+    color: #FFFFFF;
+    text-align: left;
+    text-shadow: #000 0 0 0;
+}
+
+/* MENU STYLING START */
+
+#menunav {
+	float: right;	
+	}
+
+	#menunav a  {
+		width: 25px;
+		height: 25px;
+		display: block;
+		float: left;
+		color: #fff;
+		font-size: 19px;
+		font-weight: bold;
+		line-height: 25px;
+		text-align: center;
+		border-left: 1px solid #fff;
+		}
+
+		#menunav a:hover {
+			background: #800;
+			}
+
+#menu {
+    padding: 0;
+    margin: 0;
+	list-style: none;
+    float: left;
+    line-height: 25px;
+	font-size: 12px;
+	text-transform: uppercase;
+    }
+
+	#menu a {
+		padding: 0px 5px;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		border-right: 1px solid #fff;
+		}
+
+	#menu li {
+		float: left;
+		}
+
+	#menu li:hover a, #menu li.sfhover a {
+	    color: #fff;
+	    }
+
+	#menu li:hover, #menu li.sfhover {
+	    background: #800;
+	    }
+ /* MENU END */
+
+
+.redbox {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 0px auto;
+	align-content: center;}
+
+.greenbox3{
+    width: 500px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content:center
+
+}
+
+.boxRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:center
+
+}
+
+.socialsMenu {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.greenbox4{
+    margin-top: 50px;
+
+}
+
+.greenbox5{
+    text-align: center;
+    align-items: center;
+}
+
+
+h3, h3 a, h3 a:hover {
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	color: #FFF;
+	text-decoration: none;
+	clear: both;
+	letter-spacing: -1px;
+	}
+
+.fakePostPic{
+    text-align: center;
+}
+
+
+.fakePostPrevious {
+    margin-top: 80px;
+    }
